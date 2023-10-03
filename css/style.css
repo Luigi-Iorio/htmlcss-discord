@@ -32,6 +32,7 @@ body {
 .w-button {
   background-color: white;
   color: black;
+  transition: 0.2s;
 }
 
 .b-button {
@@ -42,6 +43,12 @@ body {
 .v-button {
   background-color: #7289da;
   color: white;
+}
+
+.style-button:hover {
+  background-color: rgb(55, 55, 55);
+  color: #7289da;
+  transition: 0.2s;
 }
 
 .grigio {
