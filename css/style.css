@@ -192,6 +192,14 @@ section h3 {
   margin-bottom: 60px;
 }
 
+.stars {
+  background-image: url(/img/stars.svg);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
 /* FOOTER */
 footer {
   padding-top: 15px;
