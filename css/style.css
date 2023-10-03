@@ -44,6 +44,10 @@ body {
   color: white;
 }
 
+.grigio {
+  background-color: #f6f6f6;
+}
+
 p {
   line-height: 30px;
 }
@@ -124,13 +128,29 @@ h1 + p {
 }
 
 /* MAIN */
+main img {
+  width: 100%;
+}
+
 section {
+  margin-top: -10px;
   padding: 50px 0;
 }
 
-section:nth-child(even) {
-  background-color: #f6f6f6;
+/* wave */
+.f {
+  filter: invert(98%) sepia(28%) saturate(197%) hue-rotate(203deg)
+    brightness(111%) contrast(93%);
 }
+
+.ruota {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* /wave */
 
 .cont {
   display: flex;
