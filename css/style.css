@@ -1,4 +1,10 @@
 /* RESET */
+:root {
+  --viola: #7289da;
+  --blu-scuro: #23272a;
+  --blu: #255ee9;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -36,23 +42,19 @@ body {
 }
 
 .b-button {
-  background-color: #23272a;
+  background-color: var(--blu-scuro);
   color: white;
 }
 
 .v-button {
-  background-color: #7289da;
+  background-color: var(--viola);
   color: white;
 }
 
 .style-button:hover {
   background-color: rgb(55, 55, 55);
-  color: #7289da;
+  color: var(--viola);
   transition: 0.2s;
-}
-
-.grigio {
-  background-color: #f6f6f6;
 }
 
 p {
@@ -65,7 +67,7 @@ h2 {
 
 /* HEADER */
 header {
-  background-color: #255ee9;
+  background-color: var(--blu);
   color: white;
 }
 
@@ -111,7 +113,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/jumbo.png);
+  background-image: url(../img/jumbo.png);
   background-size: cover;
 }
 
@@ -137,6 +139,10 @@ h1 + p {
 /* MAIN */
 main img {
   width: 100%;
+}
+
+main :nth-child(even of section) {
+  background-color: #f6f6f6;
 }
 
 section {
@@ -228,7 +234,7 @@ footer {
 }
 
 footer h4 {
-  color: #7289da;
+  color: var(--viola);
 }
 
 .col {
